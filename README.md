@@ -2,7 +2,7 @@
 
 This code is a prank.
 
-It exists for the sole purpose of infurating other people. It's a naive
+It exists for the sole purpose of infurating other people. It's a naïve
 recursive Fibonacci sequence function, and it should hang indefinitely on
 whatever machine is unfortunate enough to run it.
 
