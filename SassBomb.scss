@@ -1,20 +1,11 @@
-/* FibBomb */
+/* SassBomb */
 
-// This code is a prank.
-
-// It exists for the sole purpose of infurating other people. It's a naive
-// recursive fibonacci sequence function, and it should hang indefinitely on
-// whatever machine is unfortunate enough to run it.
-
-// To use the FibBomb, include this code in your main Sass files and uncomment
-// the final line. Who would expect such an nasty issue to be in an .scss file?
-
-@function fib($num) {
+@function sassBomb($num) {
     @if ($num <= 1) {
         @return $num;
     }
-    @return (fib($num - 1) + fib($num - 2))
+    @return (sassBomb($num - 1) + sassBomb($num - 2))
 }
 
 // UNCOMMENT THE BELOW LINE TO USE
-/* $fibBomb: fib(100); */
+/* $goodbyeWorld: sassBomb(100); */
